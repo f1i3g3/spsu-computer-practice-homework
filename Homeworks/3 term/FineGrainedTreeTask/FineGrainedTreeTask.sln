@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineGrainedTreeTask.StressTester", "FineGrainedTreeTask.StressTester\FineGrainedTreeTask.StressTester.csproj", "{F923030B-CD54-4531-8CA3-3A8A18AF8F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineGrainedTreeTask.TreeLib", "FineGrainedTreeTask.TreeLib\FineGrainedTreeTask.TreeLib.csproj", "{15C1E274-B814-4B7C-9247-4D59B36AB0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineGrainedTreeTask.Tests", "FineGrainedTreeTask.Tests\FineGrainedTreeTask.Tests.csproj", "{EB956915-B9B2-4396-AE10-17C812DF3874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F923030B-CD54-4531-8CA3-3A8A18AF8F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F923030B-CD54-4531-8CA3-3A8A18AF8F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F923030B-CD54-4531-8CA3-3A8A18AF8F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F923030B-CD54-4531-8CA3-3A8A18AF8F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C1E274-B814-4B7C-9247-4D59B36AB0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C1E274-B814-4B7C-9247-4D59B36AB0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C1E274-B814-4B7C-9247-4D59B36AB0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C1E274-B814-4B7C-9247-4D59B36AB0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB956915-B9B2-4396-AE10-17C812DF3874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB956915-B9B2-4396-AE10-17C812DF3874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB956915-B9B2-4396-AE10-17C812DF3874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB956915-B9B2-4396-AE10-17C812DF3874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39570588-525D-4017-A5F2-4E96327C8A19}
+	EndGlobalSection
+EndGlobal
