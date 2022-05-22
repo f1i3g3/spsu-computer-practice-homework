@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BashDescription\**" />
+    <Compile Remove="TenthTask.Tests\**" />
+    <EmbeddedResource Remove="BashDescription\**" />
+    <EmbeddedResource Remove="TenthTask.Tests\**" />
+    <None Remove="BashDescription\**" />
+    <None Remove="TenthTask.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="BashDescription\BashDescription.csproj" />
+  </ItemGroup>
+
+</Project>

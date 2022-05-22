@@ -1,0 +1,16 @@
+Image size: 640x373; tested for 10 second(s), with gauss5x5 filter, 1 request(s) per second and 60-second time limit.
+
+Results (in ms):
+508
+271
+277
+257
+265
+271
+256
+265
+274
+262
+
+Average value: 290 ms.
+Median value: 271 ms.

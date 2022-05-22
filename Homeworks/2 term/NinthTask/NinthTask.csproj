@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ChatLibrary\**" />
+    <Compile Remove="NinthTask.Tests\**" />
+    <EmbeddedResource Remove="ChatLibrary\**" />
+    <EmbeddedResource Remove="NinthTask.Tests\**" />
+    <None Remove="ChatLibrary\**" />
+    <None Remove="NinthTask.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ChatLibrary\ChatDescription.csproj" />
+  </ItemGroup>
+
+</Project>

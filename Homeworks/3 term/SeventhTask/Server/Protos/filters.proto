@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option csharp_namespace = "Server";
+
+import "google/protobuf/empty.proto";
+
+package Filters;
+
+service FiltersApp {
+  rpc LoadFiltersList (google.protobuf.Empty) returns (FiltersListReply);
+  rpc ApplyFilter (FilterRequest) returns (stream FilterReply);
+}
+
+message FiltersListReply {
+  repeated string FiltersList = 1;
+}
+
+message FilterRequest {
+  bytes ImageBytes = 1;
+  string FilterName = 2;
+}
+
+message FilterReply {
+  oneof Reply {
+    CurrentProgress CurrentProgress = 1;
+    ImageReply Image = 2;
+  }
+}
+
+message CurrentProgress {
+  int32 Progress = 1;
+}
+
+message ImageReply {
+  int32 ErrorFlag = 1;
+  bytes ImageBytes = 2;
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SecondTask.Tests\**" />
+    <Compile Remove="TankCommonTemplate\**" />
+    <Compile Remove="TanksTypes\**" />
+    <EmbeddedResource Remove="SecondTask.Tests\**" />
+    <EmbeddedResource Remove="TankCommonTemplate\**" />
+    <EmbeddedResource Remove="TanksTypes\**" />
+    <None Remove="SecondTask.Tests\**" />
+    <None Remove="TankCommonTemplate\**" />
+    <None Remove="TanksTypes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="TankCommonTemplate\TankCommonTemplate.csproj" />
+    <ProjectReference Include="TanksTypes\TanksTypes.csproj" />
+  </ItemGroup>
+
+</Project>
